@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
+import Button from './components/button/Button';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="calc-wrapper">
+          <div className="row">
+            <Button>1</Button>
+            <Button>2</Button>
+            <Button>3</Button>
+            <Button>/</Button>
+          </div>
+        </div>
       </div>
     );
   }
