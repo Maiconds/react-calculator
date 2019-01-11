@@ -3,7 +3,7 @@ import './Button.css';
 
 // val is operator if is different from a number or
 const isOperator = val => {
-    return isNaN(val);
+    return isNaN(val) && val !== "." && val !== "=";
 }
 
 const Button = (props) => {
