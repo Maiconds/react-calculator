@@ -7,6 +7,7 @@
 }
 
 .calc-wrapper {
+    position: absolute;
     width: 400px;
     height: 600px;
 }

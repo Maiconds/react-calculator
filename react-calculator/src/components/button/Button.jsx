@@ -9,7 +9,8 @@ const isOperator = val => {
 const Button = (props) => {
     return (
         <div className={`button-wrapper ${
-            isOperator(props.children)? 'operator' : null }`}>
+            isOperator(props.children)? 'operator' : null }`} 
+            onClick={ () => props.handleClick(props.children)}>
             {props.children}
         </div>
     )
